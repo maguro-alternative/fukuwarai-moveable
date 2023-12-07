@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import './App.css';
 
 import NijimuraHana from './component/nijimuraHana.tsx';
 import NijimuraKuchi from './component/nijimuraKuchi.tsx';
-import NijimuraHidarime from './component/nijirurahidarime.tsx';
+import NijimuraHidarime from './component/nijiruraHidarime.tsx';
 import NijimuraMigime from './component/nijimuraMigime.tsx';
 import NijimuraHidariMayu from './component/nijimuraHidariMayu.tsx';
 import NijimuraMigiMayu from './component/nijimuraMigiMayu.tsx';
