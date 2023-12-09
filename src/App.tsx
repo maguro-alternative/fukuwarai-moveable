@@ -11,6 +11,8 @@ import NijimuraHidariShiwa from './component/nijimuraHidariShiwa.tsx';
 import NijimuraMigiShiwa from './component/nijimuraMigiShiwa.tsx';
 import NijimuraMiken from './component/nijimuraMiken.tsx';
 
+import BackImage from './component/backImage.tsx';
+
 //import nijimuraKuti from '/nijimurakuchi.png';
 //import nijimuraHana from '/nijimurahana.png';
 /*<img src={nijimuraKuti}/>*/
@@ -18,6 +20,7 @@ import NijimuraMiken from './component/nijimuraMiken.tsx';
 const App = () => {
   return (
     <React.Fragment>
+      <BackImage/>
       <NijimuraHana/>
       <NijimuraKuchi/>
       <NijimuraHidarime/>
