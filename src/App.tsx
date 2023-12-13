@@ -30,8 +30,8 @@ const App = () => {
   };
   return (
     <React.Fragment>
-      <div style={{backgroundImage: `url('${profileImage}')`, width: '1920', height: '1080'}}>
-        <input type="file" accept="image/*" onChange={onFileInputChange} className="pl-4" />
+      <input type="file" accept="image/*" onChange={onFileInputChange} />
+      <div style={{backgroundImage: `url('${profileImage}')`, backgroundRepeat: "no-repeat"}}>
         <NijimuraHana/>
         <NijimuraKuchi/>
         <NijimuraHidarime/>

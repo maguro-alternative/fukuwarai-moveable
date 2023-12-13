@@ -1,7 +1,5 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  padding: 10rem;
   text-align: center;
 }
 
@@ -16,6 +14,27 @@
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.moveable {
+  width: 50px!important;
+  height: 100px!important;
+  margin: 0 0 0 auto;
+}
+
+.moveable-control {
+  width: 10px!important;
+  height: 10px!important;
+  margin-top: -10px!important;
+  margin-left: -10px!important;
+}
+
+.moveable-line {
+  position: absolute!important;
+  width: 1px!important;
+  height: 1px!important;
+  background: #000!important;
+  transform-origin: 0px 0.5px!important;
 }
 
 @keyframes logo-spin {
